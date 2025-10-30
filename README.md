@@ -1,28 +1,29 @@
 # DevOps Simulator
 
-A comprehensive CI/CD configuration management tool for enterprise deployments.
+A comprehensive CI/CD configuration management tool for enterprise deployments.  
+Now extended with **optional experimental AI-powered enhancements** for predictive monitoring and smart deployment.
 
 ---
 
 ## Project Status
-**Version**: 1.0.0 (Stable)  
-**Environment**: Production  
+**Stable Version**: 1.0.0 (Production)  
+**Experimental Version**: 3.0.0 (AI-Powered)  
 **Maintainer**: DevOps Team
 
-> 💡 *Development Version (2.0.0-beta)*  
-> Includes experimental features currently in testing. See “Development Features” below.
+> 💡 The experimental version introduces machine learning–based deployment optimization and multi-cloud orchestration.  
+> These features are **not production-ready** and should be enabled only for testing and R&D.
 
 ---
 
-## Features
-- Automated deployment scripts  
-- Real-time monitoring  
-- Configuration management  
-- Backup and recovery system  
+## Core Features (Stable)
+- ⚙️ Automated deployment scripts  
+- 🧠 Real-time system monitoring  
+- 🗂️ Configuration management  
+- 💾 Backup and recovery system  
 
-**Optional / In-Development Enhancements:**
+**Optional / In-Development Enhancements**
 - 🚀 Kubernetes orchestration support  
-- 🔄 Advanced blue-green deployment  
+- 🔄 Blue-Green & Canary deployment strategies  
 - 📊 Enhanced monitoring dashboard  
 - 🔐 OAuth2 authentication  
 - 🐳 Docker Compose integration  
@@ -30,19 +31,3 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 - 💬 Slack/Discord notifications  
 
 ---
-
-## Quick Start (Production)
-1. Clone the repository  
-2. Configure environment variables  
-3. Run deployment script  
-4. Monitor system health  
-
----
-
-## Quick Start (Development Mode)
-> For developers testing new features
-
-1. Clone the repository  
-2. Install dependencies:  
-   ```bash
-   npm install
