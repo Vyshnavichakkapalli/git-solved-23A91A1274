@@ -31,3 +31,4 @@ Now extended with **optional experimental AI-powered enhancements** for predicti
 - 💬 Slack/Discord notifications  
 
 ---"## FAQ" 
+"update" 
