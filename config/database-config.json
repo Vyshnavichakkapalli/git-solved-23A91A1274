@@ -20,7 +20,7 @@
 
     "_experimental": {
       "enabled": false,
-      "type": "distributed",                       // experimental distributed DB mode
+      "type": "distributed",
       "hosts": ["node1.example.com", "node2.example.com", "node3.example.com"],
       "database": "devops_experimental",
       "username": "experimental_admin",
@@ -48,7 +48,7 @@
 
     "_experimental": {
       "enabled": false,
-      "strategy": "continuous",                     // continuous backup mode
+      "strategy": "continuous",
       "schedule": "*/15 * * * *",
       "retention_days": 90,
       "location": "s3://backups/experimental",
@@ -92,6 +92,7 @@
     "slow_query_threshold": 100,
     "alert_on_anomaly": false,
     "metrics_export": "prometheus",
+
     "_experimental": {
       "alert_on_anomaly": true,
       "note": "Anomaly alerting uses ML models — not production validated"

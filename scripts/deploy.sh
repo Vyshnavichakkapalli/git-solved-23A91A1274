@@ -1,7 +1,9 @@
 #!/bin/bash
+# ========================================================
 # Unified Deployment Script
 # Primary: Production | Optional: Development | Experimental: AI-Driven
-# Version: 1.0.0 (base) + 3.0.0-experimental extensions
+# Version: 1.0.0 (Stable) + 3.0.0-experimental extensions
+# ========================================================
 
 set -euo pipefail
 
@@ -18,7 +20,7 @@ APP_PORT=8080
 DEPLOY_MODE="kubernetes"                 # default production method
 ENABLE_DEBUG=false
 
-# Experimental feature flags
+# Optional feature flags
 EXPERIMENTAL_MODE=${EXPERIMENTAL_MODE:-false}
 AI_OPTIMIZATION=${AI_OPTIMIZATION:-false}
 CHAOS_TESTING=${CHAOS_TESTING:-false}
@@ -59,7 +61,7 @@ if [ ! -f "config/app-config.yaml" ]; then
     exit 1
 fi
 
-# Optional dependency installation for development
+# Development dependency setup
 if [ "$DEPLOY_ENV" = "development" ]; then
   echo "Installing dependencies..."
   npm install
@@ -112,7 +114,7 @@ elif [ "$EXPERIMENTAL_MODE" = true ]; then
   echo "Starting multi-cloud experimental deployment..."
   for cloud in "${DEPLOY_CLOUDS[@]}"; do
       echo "Deploying to $cloud..."
-      # Experimental deployment logic
+      # Placeholder for experimental cloud logic
       echo "✓ $cloud deployment initiated"
   done
 

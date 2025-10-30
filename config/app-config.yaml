@@ -12,6 +12,7 @@ server:
   host: 0.0.0.0
   port: 8080
   ssl_enabled: true
+  
   # Optional (development only)
   hot_reload: false  # set to true in development
 
@@ -23,6 +24,7 @@ logging:
   level: INFO
   format: json
   output: /var/log/app.log
+  
   # Optional (development only)
   show_stack_trace: false  # set to true in development
   
@@ -44,6 +46,7 @@ features:
   auto_scaling: true
   load_balancer: enabled
   backup_enabled: true
+  
   # Optional (development only)
   experimental_features: false  # enable in development if needed
 
