@@ -30,4 +30,4 @@ Now extended with **optional experimental AI-powered enhancements** for predicti
 - ☁️ Multi-cloud support (AWS, Azure, GCP)  
 - 💬 Slack/Discord notifications  
 
----
+---"## FAQ" 
